@@ -8,3 +8,4 @@ A very simple example with  cuda_kmeans
 
 Notice: different version of nvidia cuda nvcc compiles generate with different library name symbols.
 
+anyone who use fresh hardware or nvcc version above or equ nvcc-8. remove Makefile of "arch=compute_20,code=sm_20"
