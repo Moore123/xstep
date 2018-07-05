@@ -96,5 +96,5 @@ results:
 .PHONY: clean
 
 clean:
-	rm -rf $(OBJS) $(EXEC) $(SLIB) $(ALIB) $(EXECOBJ) $(OBJDIR)/*
+	rm -rf $(EXEC) $(SLIB) $(ALIB) $(EXECOBJ) $(OBJDIR)*
 
