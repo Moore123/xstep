@@ -11,8 +11,7 @@ Notice: different version of nvidia cuda nvcc compiles generate with different l
 anyone who use fresh hardware or nvcc version above or equ nvcc-8. remove Makefile of "arch=compute_20,code=sm_20"
 
 FFmpeg:
-ffbuild/config.mak
-   + CFLAGS = -fPIC
+   --enable-shared when build
 
 opencv-3.4.3
 in sample/gpu/multi.cpp
